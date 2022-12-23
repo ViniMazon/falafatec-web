@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="generator" content="Hugo 0.48" />
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Fala Fatec</title>
+    <meta name="keywords" content="yeo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/spectre.css">
+    <link rel="stylesheet" href="./css/yeo.css">
+    <link rel="icon" href="./images/ff.png">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/lost.css">
+    
+    
+</head>
+
+<body>
+    <div class="yeo-slogan">
+        <div class="container yeo-header">
+            <div class="columns">
+                <div class="column col-12">
+                    <header class="navbar">
+                        <section class="navbar-section">
+                            <a class="navbar-brand logo" href="home.html">
+                                <img class="logo-img"  src="./images/ff.png" alt=""> <span>Fala Fatec</span>
+                            </a>
+                        </section>
+                        <section class="navbar-section hide-sm">
+                            <a class="btn btn-link" href="">Contato Docente</a>
+                            <a class="btn btn-link" href="lostandfound.html">Achados e Perdidos</a>
+                            <a class="btn btn-link" href="calendario.html">Calendário</a>
+                            <a class="btn btn-link" href="">Sugestões</a>
+                        </section>
+                    </header>
+                </div>
+            </div>
+        </div>
+   </div>
+
+        <div class="row">
+            <div class="col-md-12">
+              <form id="form">
+
+                <br>
+                <fieldset>
+                  
+                  <legend><span class="number">1</span> Informações do item</legend>
+                
+                  <label for="name">Nome:</label>
+                  <input type="text" id="name" name="user_name">
+                
+                  <label for="email">Local:</label>
+                  <input type="text" id="local" name="local">
+               
+                  <label for="password">Data:</label>
+                  <input type="date" id="data" name="data">
+
+                  <label for="bio">Descrição:</label>
+                  <textarea id="bio" name="user_bio"></textarea>
+
+                <input type="file" name="picture" id="file" accept=".jpg">
+            
+            </fieldset>
+
+                <p>
+                <button type="submit"> Cadastrar </button>
+          
+               </form>
+                
+
+               <script>
+
+                document.getElementById('form').addEventListener('submit',function(e){
+
+                const name = document.getElementById('name');
+                const local = document.getElementById('local');
+                const data = document.getElementById('data'); 
+                const bio = document.getElementById('bio');
+ 
+                fetch('https://fala-fatec.herokuapp.com/achadoseperdidos' ,{
+                    headers: {
+                        'Accept':'application/json',
+                        'Content-Type':'application/json'
+                },
+                method: "POST", redirect: 'manual',
+                body: JSON.stringify({nome: name.value, local: local.value, data: data.value, descricao: bio.value})
+                }).catch(function(err) {
+                    console.info(err);
+                });
+                
+
+                })
+
+                document.getElementById('form').addEventListener('submit', function(e){
+                    e.preventDefault();
+                    const userFile = document.getElementById('file').files[0];
+                    const filename = document.getElementById('file').files[0];
+                    
+                    const formData = new FormData();
+                    formData.append('file', userFile,);
+                    
+                    fetch('https://lostandfound-images.herokuapp.com/images/db/upload' ,{
+                        method: "POST",
+                        body: formData,
+                    })
+                        .then(res => res.json())
+                        .then(data => console.log(data))
+                        .catch(err => console.log(err));
+           
+                })
+                
+/**
+ <br>
+                <br>
+                <fieldset>
+                  
+                  <legend><span class="number">1</span> Informações do item</legend>
+                
+                  <label for="name">Nome:</label>
+                  <input type="text" id="name" name="user_name">
+                
+                  <label for="email">Local:</label>
+                  <input type="email" id="local" name="local">
+               
+                  <label for="password">Data:</label>
+                  <input type="date" id="data" name="data">
+
+                  <label for="bio">Descrição:</label>
+                  <textarea id="bio" name="user_bio"></textarea>
+
+               
+                  <label class="picture" for="picture__input" tabIndex="0">
+                    <span class="picture__image"></span>
+                  </label>
+
+ </fieldset>
+
+<script src="js/Lostandfound.js" defer>
+                    */
+
+
+
+                </script>
+
+                
+
+           
+       
+            <!-- <script src="./js/Lostandfound.js"></script> -->
+</body>
+
+</html>
