@@ -30,6 +30,8 @@ Benefícios:
 * Agilizar ações de interesse comum entre as camadas que formam a comunidade FATEC;
 * Possibilitar maior interessão entre cursos distintos de uma unidade FATEC.
 
+<br>
+
 ### Tecnologias
 
 Aqui estão citadas as principais tecnologias que estão sendo utilizadas para o desenvolvimento desse projeto, existem mais informações de como a apicação delas está sendo feita no <a href="https://github.com/FalaFatec/AMS-ADS-GR-4-FALA-FATEC"><strong>repositório de código »</strong></a>
