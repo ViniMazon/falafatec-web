@@ -48,6 +48,7 @@ Aqui estão citadas as principais tecnologias que estão sendo utilizadas para o
 * [![VSCode][VisualStudioCode.com]][VisualStudioCode-url]
 
 <br>
+
 <!-- CONTATO -->
 ## Contato
 
