@@ -19,7 +19,7 @@
 <img src="assets/tela.png" alt="Logo">
 </div>
 <br>
-Necessidade:
+<strong>Necessidade:</strong>
 A ideia do projeto surgiu com a análise e experiência vivida dentro da FATEC São Caetano, onde foi possível observar a necessidade de um canal de comunicação mais prático, e a falta de conexão entre a comunidade da faculdade.
 
 Objetivo:
@@ -34,7 +34,7 @@ Benefícios:
 
 ### Tecnologias
 
-Aqui estão citadas as principais tecnologias que estão sendo utilizadas para o desenvolvimento desse projeto, existem mais informações de como a apicação delas está sendo feita no <a href="https://github.com/FalaFatec/AMS-ADS-GR-4-FALA-FATEC"><strong>repositório de código »</strong></a>
+Aqui estão citadas algumas das principais tecnologias que estão sendo utilizadas para o desenvolvimento desse projeto, existem mais informações de como a apicação delas está sendo feita no <a href="https://github.com/FalaFatec/AMS-ADS-GR-4-FALA-FATEC"><strong>repositório de código »</strong></a>
 
 * ![Html][Html.com]
 * ![Css][Css.com]
