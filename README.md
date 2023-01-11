@@ -16,7 +16,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="assets/logo.png" alt="Logo" width="80" height="80">
 
 Necessidade:
 A ideia do projeto surgiu com a análise e experiência vivida dentro da FATEC São Caetano, onde foi possível observar a necessidade de um canal de comunicação mais prático, e a falta de conexão entre a comunidade da faculdade.
