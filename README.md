@@ -1,7 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/FalaFatec/AMS-ADS-GR-4-DOC">
     <img src="assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -16,7 +15,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-<img src="assets/logo.png" alt="Logo" width="80" height="80">
+<img src="assets/tela.png" alt="Logo" width="80" height="80">
 
 Necessidade:
 A ideia do projeto surgiu com a análise e experiência vivida dentro da FATEC São Caetano, onde foi possível observar a necessidade de um canal de comunicação mais prático, e a falta de conexão entre a comunidade da faculdade.
