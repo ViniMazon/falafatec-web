@@ -48,9 +48,9 @@ Aqui estão citadas algumas das principais tecnologias que estão sendo utilizad
 <!-- CONTATO -->
 ## Contato
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+E-mail - vinicius.viturino@fatec.sp.gov.br
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+LinkedIn - https://www.linkedin.com/in/viniciusmazonviturino/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
