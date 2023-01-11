@@ -19,7 +19,7 @@
 <img src="assets/tela.png" alt="Logo">
 </div>
 <br>
-<strong>Necessidade:</strong>
+Necessidade:
 A ideia do projeto surgiu com a análise e experiência vivida dentro da FATEC São Caetano, onde foi possível observar a necessidade de um canal de comunicação mais prático, e a falta de conexão entre a comunidade da faculdade.
 
 Objetivo:
@@ -40,12 +40,8 @@ Aqui estão citadas algumas das principais tecnologias que estão sendo utilizad
 * ![Css][Css.com]
 * [![Javascript][Javascript.com]][Javascript-url]
 * [![Json][Json.com]][Json-url]
-* [![Trello][Trello.com]][Trello-url]
-* [![PostgreSQL][Postgre.com]][Postgre-url]
-* [![Spring][Spring.com]][Spring-url]
-* [![Postman][Postman.com]][Postman-url]
-* [![IntelliJ][IntelliJ.com]][IntelliJ-url]
 * [![VSCode][VisualStudioCode.com]][VisualStudioCode-url]
+* [![Bootstrap]][Bootstrap.com]
 
 <br>
 
@@ -89,4 +85,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [IntelliJ-url]: https://www.jetbrains.com/idea/
 [VisualStudioCode.com]: https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white
 [VisualStudioCode-url]: https://code.visualstudio.com/
-
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
