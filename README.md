@@ -11,7 +11,7 @@
     <br />
   </p>
 </div>
-
+<br>
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 <div align="center">
