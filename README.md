@@ -41,7 +41,7 @@ Aqui estão citadas algumas das principais tecnologias que estão sendo utilizad
 * [![Javascript][Javascript.com]][Javascript-url]
 * [![Json][Json.com]][Json-url]
 * [![VSCode][VisualStudioCode.com]][VisualStudioCode-url]
-* [![Bootstrap]][Bootstrap.com]
+* [![Bootstrap][Bootstrap.com]
 
 <br>
 
