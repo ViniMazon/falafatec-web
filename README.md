@@ -8,10 +8,7 @@
   <h3 align="center">FalaFatec</h3>
 
   <p align="center">
-    Repositório para documentação do projeto.
-    <br />
-    <a href="https://github.com/FalaFatec/AMS-ADS-GR-4-DOC"><strong>Ver os documentos »</strong></a>
-    <br />
+    Repositório Web do projeto.
     <br />
   </p>
 </div>
