@@ -16,8 +16,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -43,8 +41,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
@@ -63,8 +59,6 @@ Benefícios:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Tecnologias
 
 Aqui estão citadas as principais tecnologias que estão sendo utilizadas para o desenvolvimento desse projeto, existem mais informações de como a apicação delas está sendo feita no <a href="https://github.com/FalaFatec/AMS-ADS-GR-4-FALA-FATEC"><strong>repositório de código »</strong></a>
@@ -82,7 +76,6 @@ Aqui estão citadas as principais tecnologias que estão sendo utilizadas para o
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- CONTATO -->
 ## Contato
 
@@ -91,7 +84,6 @@ Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.c
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
